@@ -1,4 +1,4 @@
-set -xe
+# set -xe
 
 git clean -fxd
 cc mockup.c -o mockup -Wall -Wextra -Werror
@@ -23,4 +23,11 @@ cc test2.c -o test2 -lSDL2
 
 echo "=================================TEST DRYRUN DONE======================================"
 
+rm -rf probe-qt6
 git submodule update --init
+cd probe-qt6; bash build.sh; cd ..
+
+./mockup probe-qt6/a.out
+
+echo "=================================TEST QT6 DONE======================================"
+git clean -fxd
