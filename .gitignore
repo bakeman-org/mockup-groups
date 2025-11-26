@@ -9,3 +9,4 @@ test[1-9]
 !test*.c
 !.gitmodules
 bin/
+!readme.md
