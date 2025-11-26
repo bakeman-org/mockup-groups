@@ -10,3 +10,4 @@ test[1-9]
 !.gitmodules
 bin/
 !readme.md
+*.tar.gz

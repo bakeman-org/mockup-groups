@@ -30,4 +30,5 @@ cd probe-qt6; bash build.sh; cd ..
 ./mockup probe-qt6/a.out
 
 echo "=================================TEST QT6 DONE======================================"
-git clean -fxd
+# git clean -fxd
+tar -cfv probe-qt6.tar.gz bin/
