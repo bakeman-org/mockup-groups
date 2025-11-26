@@ -1,0 +1,9 @@
+*.out
+*.so
+*.so.2
+*.so.6
+mockup
+test
+test*
+!test*.c
+bin/
