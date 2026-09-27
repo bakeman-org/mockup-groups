@@ -1,4 +1,4 @@
-# this is experimental tool for package thing on Linux desktop
+# this is experimental tool for packaging ELF thing on Linux desktop
 - well, at least mainly focus on debian distro
 - feel free to PR
 
